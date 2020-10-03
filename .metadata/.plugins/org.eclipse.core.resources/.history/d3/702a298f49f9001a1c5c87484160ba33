@@ -1,0 +1,40 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class EstoqueLoja {
+
+	public static void main(String[] args) {
+		
+		Collection<String> estoque = new ArrayList();
+		 
+		estoque.add("Arroz");
+		estoque.add("Feijão");
+		estoque.add("Açucar");
+		estoque.add("Café");
+		estoque.add("Leite");
+		
+		/* Mostrar o que tem no Estoque: (APRESENTAR TODOS OS DADOS)
+		System.out.println("Estoque Loja de alimentos: "+estoque);
+		*/
+		
+		/* Mostrar se o estoque está vazio ou cheio:
+		if (estoque.isEmpty()) 
+		{
+			System.out.println("Lista vazia...");
+		}
+		else 
+		{
+			System.out.println("Lista de produtos no estoque: "+estoque);
+		}
+		*/
+		
+		
+		System.out.println("Estoque Loja de alimentos: "+estoque);
+		estoque.remove("Arroz");
+		System.out.println("Estoque Loja de alimentos: "+estoque);
+	}
+	
+}
+

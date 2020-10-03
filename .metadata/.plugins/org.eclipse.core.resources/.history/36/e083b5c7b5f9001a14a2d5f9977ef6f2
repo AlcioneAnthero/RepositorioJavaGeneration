@@ -1,0 +1,29 @@
+package entidades;
+
+import java.util.Scanner;
+
+public class TesteErro {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner (System.in);
+		
+		// Bolinhas verdes são metodos que fazem alguma coisa. Ex: Next.
+		
+		System.out.println("DIGITE UMA SEQUENCIA DE NOMES");
+		String lista[] = leia.nextLine().split("    "); 
+		//String exemplo[] = {"Rafa","Jessica", "Ed"}; // meus nomes, vetores.
+		//System.out.println(lista[0]); // posiçoes que eu quero [1] ou [5]
+		//System.out.println(lista[1]);
+		System.out.println("Escolha a posição da lista: ");
+		int posicao = leia.nextInt();
+		System.out.println(lista[posicao]);
+		
+		
+		
+		
+		leia.close();
+		
+	}
+
+}

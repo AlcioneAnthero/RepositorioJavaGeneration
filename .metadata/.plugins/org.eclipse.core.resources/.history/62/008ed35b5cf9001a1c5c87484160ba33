@@ -1,0 +1,17 @@
+package Collections;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Animal primeiroAnimal = new Animal("Sety",10); // Aninal qualquer: Canguru 
+		Cavalo primeiroCavalo = new Cavalo("Esmeralda",7); //Cavalo
+		Cachorro segundoCachorro = new Cachorro("Snoop",3); //Cachorro
+		Preguiça terceiraPreguiça = new Preguiça ("Cadu",12); //Preguiça
+	
+		System.out.println(primeiroCavalo.getNome());
+		System.out.println(segundoCachorro.getNome());
+		System.out.println(terceiraPreguiça.getNome());
+	}
+
+}

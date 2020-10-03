@@ -1,0 +1,17 @@
+package entidades;
+
+public class Aluno extends Pessoa { //encapsulando todos os dados 
+	
+	private String turma;
+	private int notas[] = new int [2];
+	
+	public Aluno(String nome, char sexo, int anoNasc, String etnia, String turma, int[] notas) {
+		super(nome, sexo, anoNasc, etnia);
+		this.turma = turma;
+		this.notas = notas;
+	}
+	
+	
+	
+	
+}

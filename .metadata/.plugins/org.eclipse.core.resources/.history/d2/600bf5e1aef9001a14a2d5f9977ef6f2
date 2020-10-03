@@ -1,0 +1,16 @@
+package Interface;
+
+public class Quadrado extends FiguraGeometrica implements CalculoArea {
+
+	public Quadrado(int base, int altura) {
+		super(base, altura);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calculoArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

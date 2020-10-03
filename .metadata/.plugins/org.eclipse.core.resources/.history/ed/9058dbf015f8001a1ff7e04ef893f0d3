@@ -1,0 +1,11 @@
+package entidades;
+
+public class Pessoas {
+
+	public String nome;
+	public String ultimoNome;
+	public String sexo;
+	public int anoNascimento;
+	public String etnia;
+	
+}

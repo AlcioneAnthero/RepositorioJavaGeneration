@@ -1,0 +1,28 @@
+package aplicacao;
+
+public class EmpresaX {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("CONTROLE EMPRESARIAL - LOGÍSTICO:"); //EmpresaX
+		
+		Pessoa funcionarioEmpresa = new Pessoa ("Caio"); // Empregado
+		Pessoa operarioLogistico = new Pessoa ("João - Expedição"); // Operario
+		Pessoa administradorCargas = new Pessoa ("Amanda - Coornedação"); //Admistrador
+		Pessoa pessoaChefe = new Pessoa ("Alcione - Chefa"); // pessoa
+		
+		System.out.println("\nAgradecemos por fazerem parte de nossa equipe:");
+		
+		System.out.println(pessoaChefe.getNome());
+		
+		System.out.println(funcionarioEmpresa.getNome());
+		
+		System.out.println(operarioLogistico.getNome());
+		
+		System.out.println(administradorCargas.getNome());
+		
+		
+	}
+
+}

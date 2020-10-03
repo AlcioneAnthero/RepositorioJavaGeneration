@@ -1,0 +1,23 @@
+package ExemploPOO;
+
+public class Aluno {
+	
+	/*Criar classe do aluni
+	 * nomeAluno[texto/String],
+	 *  anoNascimentoAluno[int], 
+	 * sexoAluno[caracter é char], 
+	 * turmaAluno[caracter é char]
+	 * 
+	 */
+
+	public String nomeAluno;
+	public int anoNascimentoAluno;
+	public char sexoAluno;
+	public char turmaAluno;
+	
+	public void mostra() {
+		
+		
+		System.out.printf("O nome do aluno é %s ano de nascimento do aluno é %d e o sexo %s", nomeAluno);
+	}
+}

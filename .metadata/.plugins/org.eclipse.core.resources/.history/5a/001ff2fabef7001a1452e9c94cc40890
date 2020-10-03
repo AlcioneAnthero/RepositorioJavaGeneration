@@ -1,0 +1,44 @@
+package ExerciciosObjeto;
+
+import java.util.Scanner;
+
+public class Exercicio3Paciente {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Levantamento da ficha do(a) Paciente: ");
+		
+		Scanner leia = new Scanner (System.in);
+		Paciente primeiroPaciente = new Paciente();
+		
+		String nome;
+		
+		System.out.println("Digite seu nome: ");
+		nome = leia.next();
+		
+		System.out.printf("Bem vindo ao Hospital %s",nome.toUpperCase());
+		
+		System.out.println("Digite o ano de seu nascimento:");
+		primeiroPaciente.anoNascimentoPaciente = leia.nextInt();
+		
+		System.out.println("Informe o quarto em que estava internado(a), UTI ou Quarto:");
+		primeiroPaciente.localInternado = leia.next().charAt(0);
+		
+		System.out.println("Informe se seu problema de saúde se enquadra como COVID-19:");
+		primeiroPaciente.coronaVirus = leia.next().charAt(0);
+		
+		System.out.println("Com qual nota você avaliaria seu atendimento? 0 á 10");
+		primeiroPaciente.notaAtendimento = leia.nextDouble();
+		
+		System.out.printf("Gostaria de nos dar sugestões e ou/ observações?",nome.toUpperCase());
+		primeiroPaciente.notaAtendimento = leia.nextInt();
+		
+		System.out.println("Agradecemos suas informações, entraremos em contato com você em 24h!");
+		System.out.println("Qualquer dúvida ou socorrp, entre em contato por 0000.0000");
+		
+		primeiroPaciente.fichaCliente();
+		
+
+	}
+
+}

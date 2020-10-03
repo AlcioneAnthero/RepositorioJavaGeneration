@@ -1,0 +1,5 @@
+package Interface;
+
+public class Quadrado extends FiguraGeometrica implements CalculoArea {
+
+}

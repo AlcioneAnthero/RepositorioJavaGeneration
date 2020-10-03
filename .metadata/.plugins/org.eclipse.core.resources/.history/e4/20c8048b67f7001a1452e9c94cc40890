@@ -1,0 +1,12 @@
+package ExemploPOO;
+
+public class ExemploEscolar {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Sistema de controle escolar em Java - POO");
+		
+
+	}
+
+}
